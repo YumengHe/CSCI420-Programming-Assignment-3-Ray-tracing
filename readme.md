@@ -74,7 +74,7 @@ Examples:
 - **color.h**: Defines a `color` class for RGB color representation, supporting operations like addition, multiplication, scaling, and clamping to ensure color values remain within valid ranges. Used to compute and store the color at each pixel based on lighting and material properties.
 
 ## Sample Image
-- output of new.scene
+- output of new.scene \
 ![new.scene](<hw3-starterCode/new.jpg>)
 
 - output of test2.scene
