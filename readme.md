@@ -75,13 +75,13 @@ Examples:
 
 ## Sample Image
 - new.scene
-![new.scene](</hw3-starterCode/hw3-starterCode/new.jpg>)
+![new.scene](<hw3-starterCode/new.jpg>)
 
 - test2.scene
-![test2.scene](</hw3-starterCode/hw3-starterCode/test2.jpg>)
+![test2.scene](<hw3-starterCode/test2.jpg>)
 
 - test2edit.scene
-![test2edit.scene](</hw3-starterCode/hw3-starterCode/test2edit.jpg>)
+![test2edit.scene](<hw3-starterCode/test2edit.jpg>)
 
 - SIGGRAPH.scene
-![SIGGRAPH.scene](</hw3-starterCode/hw3-starterCode/SIGGRAPH.jpg>)
+![SIGGRAPH.scene](<hw3-starterCode/SIGGRAPH.jpg>)
