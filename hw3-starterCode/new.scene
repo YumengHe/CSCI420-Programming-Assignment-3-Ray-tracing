@@ -1,0 +1,192 @@
+20
+amb: 0.1 0.1 0.1
+
+# Light 1 - White light from above
+light
+pos: 0 5 -5
+col: 1 1 1
+area_light: true
+area_u: 2 0 0
+area_v: 0 0 2
+samples: 16
+
+# Light 2 - Red light from the side
+light
+pos: -5 2 -2
+col: 1 0.5 0.5
+
+# Sphere 2 - Reflective metallic sphere
+sphere
+pos: 1.2 0 -3
+rad: 1
+dif: 0.1 0.1 0.1
+spe: 0.9 0.9 0.9
+shi: 100
+ref: 0.8
+
+# Sphere 2 - Glossy blue sphere
+sphere
+pos: 2 -0.75 -4
+rad: 0.25
+dif: 0.1 0.1 0.5
+spe: 0.5 0.5 0.7
+shi: 50
+ref: 0.3
+
+# Sphere 3 - Matte green sphere
+sphere
+pos: 2 -0.75 -3
+rad: 0.25
+dif: 0.1 0.5 0.1
+spe: 0.1 0.1 0.1
+shi: 10
+ref: 0.0
+
+# Triangle 1 - Reflective floor
+triangle
+pos: -5 -1 -10
+nor: 0 1 0
+dif: 0.2 0.2 0.2
+spe: 0.8 0.8 0.8
+shi: 100
+ref: 0.5
+pos: 5 -1 -10
+nor: 0 1 0
+dif: 0.2 0.2 0.2
+spe: 0.8 0.8 0.8
+shi: 100
+ref: 0.5
+pos: 5 -1 0
+nor: 0 1 0
+dif: 0.2 0.2 0.2
+spe: 0.8 0.8 0.8
+shi: 100
+ref: 0.5
+
+# Triangle 2 - Reflective floor (continuation)
+triangle
+pos: -5 -1 -10
+nor: 0 1 0
+dif: 0.2 0.2 0.2
+spe: 0.8 0.8 0.8
+shi: 100
+ref: 0.5
+pos: 5 -1 0
+nor: 0 1 0
+dif: 0.2 0.2 0.2
+spe: 0.8 0.8 0.8
+shi: 100
+ref: 0.5
+pos: -5 -1 0
+nor: 0 1 0
+dif: 0.2 0.2 0.2
+spe: 0.8 0.8 0.8
+shi: 100
+ref: 0.5
+
+# Sphere 4 - Glass-like sphere (needs refraction, but we'll use low reflectivity)
+sphere
+pos: 0 -0.75 -4
+rad: 0.25
+dif: 0.5 0.5 0.5
+spe: 0.9 0.9 0.9
+shi: 200
+ref: 0.1
+
+# Sphere 5 - Emissive-like sphere (simulated by high diffuse color)
+sphere
+pos: -1.5 -0.75 -3
+rad: 0.25
+dif: 1 1 0.8
+spe: 0.1 0.1 0.1
+shi: 5
+ref: 0.0
+
+sphere
+pos: -1 -0.75 -2.5
+rad: 0.25
+dif: 0.8 0.2 0.2    # Red
+spe: 0.3 0.1 0.1
+shi: 20
+ref: 0.2
+
+sphere
+pos: 0 -0.75 -3.5
+rad: 0.25
+dif: 0.2 0.8 0.2    # Green
+spe: 0.1 0.3 0.1
+shi: 15
+ref: 0.1
+
+sphere
+pos: 1 -0.75 -3
+rad: 0.25
+dif: 0.2 0.2 0.8    # Blue
+spe: 0.1 0.1 0.3
+shi: 25
+ref: 0.15
+
+sphere
+pos: -1.5 -0.75 -4
+rad: 0.25
+dif: 0.8 0.8 0.2    # Yellow
+spe: 0.3 0.3 0.1
+shi: 18
+ref: 0.2
+
+sphere
+pos: 1.75 -0.75 -1.25
+rad: 0.25
+dif: 0.8 0.2 0.8    # Magenta
+spe: 0.3 0.1 0.3
+shi: 22
+ref: 0.25
+
+sphere
+pos: -0.5 -0.75 -2
+rad: 0.25
+dif: 0.2 0.8 0.8    # Cyan
+spe: 0.1 0.3 0.3
+shi: 20
+ref: 0.1
+
+sphere
+pos: 0.5 -0.75 -4.5
+rad: 0.25
+dif: 0.5 0.3 0.1    # Brownish
+spe: 0.2 0.1 0.05
+shi: 12
+ref: 0.05
+
+
+sphere
+pos: -2.5 -0.75 -3.5
+rad: 0.25
+dif: 0.5 0.1 0.1    # Dark Red
+spe: 0.2 0.1 0.1
+shi: 18
+ref: 0.1
+
+sphere
+pos: 2 -0.75 -3
+rad: 0.25
+dif: 0.1 0.5 0.5    # Teal
+spe: 0.1 0.2 0.2
+shi: 20
+ref: 0.15
+
+sphere
+pos: -1 -0.75 -4.5
+rad: 0.25
+dif: 0.5 0.5 0.5    # Gray
+spe: 0.3 0.3 0.3
+shi: 25
+ref: 0.2
+
+sphere
+pos: 1 -0.75 -2.0
+rad: 0.25
+dif: 0.9 0.6 0.2    # Orange
+spe: 0.3 0.2 0.1
+shi: 22
+ref: 0.2
